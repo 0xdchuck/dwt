@@ -23,5 +23,5 @@
     "checkJs": true,
     "noEmit": false,
     "skipLibCheck": true
-  },
+  }
 }

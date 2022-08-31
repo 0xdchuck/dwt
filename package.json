@@ -6,11 +6,11 @@
   "author": "0xdchuck",
   "contributors": [
     "0xdchuck <0xd_chuck@pm.me> (https://0xdchuck.viewww.page)"
-],
-"keywords": [
-  "web3",
-  "auth"
-],
+  ],
+  "keywords": [
+    "web3",
+    "auth"
+  ],
   "license": "MIT",
   "type": "module",
   "main": "lib/cjs/index.js",
@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "clean": "shx rm -rf lib/*",
-    "build":"yarn clean && tsc -p tsconfig.json && tsc-esm -p tsconfig.json",
+    "build": "yarn clean && tsc -p tsconfig.json && tsc-esm -p tsconfig.json",
     "format": "prettier --write  '*.{json,js}' 'src/**/*.{js,ts}'"
   },
   "dependencies": {
