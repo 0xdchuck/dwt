@@ -1,0 +1,27 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true,
+    "module": "esnext",
+    "target": "es2021", //es2020 before
+    "noImplicitAny": false,
+    "outDir": "lib/esm",
+    "declarationDir": "lib/types",
+    "keyofStringsOnly": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "isolatedModules": true,
+    "strictBindCallApply": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "checkJs": true,
+    "noEmit": false,
+    "skipLibCheck": true
+  },
+}
